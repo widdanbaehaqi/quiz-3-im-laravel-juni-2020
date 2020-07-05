@@ -15,7 +15,7 @@ use App\Http\Controllers\ArtikelController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {
-    return view('erd');
+    return view('index');
 });
 Route::get('/artikel', 'ArtikelController@index');
 Route::get('/artikel/create', 'ArtikelController@create');
